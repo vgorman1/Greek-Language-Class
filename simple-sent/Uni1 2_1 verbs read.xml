@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serialized version="21.0" xml:space="preserve">
+	<map>
+		<entry>
+			<String>bidi.support</String>
+			<Integer>0</Integer>
+		</entry>
+		<entry>
+			<String>document.types</String>
+			<documentTypeDescriptor-array/>
+		</entry>
+		<entry>
+			<String>find.options</String>
+			<findOptions>
+				<field name="incremental">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="findHistory">
+					<null/>
+				</field>
+				<field name="findHistoryPO">
+					<findHistory-array>
+						<findHistory>
+							<field name="text">
+								<String>relation=""</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>head=""</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>b--</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>συνισ</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>πύλην</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>Κίμων</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>κίμων</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>ἐβοήθησε</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>φυλακή</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>--c"</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>document_id="0014-049</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>document_id="0014-046</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>document_id="0046</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>"b---</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>116</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>relation=""</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>head=""</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>b--</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>συνισ</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+						<findHistory>
+							<field name="text">
+								<String>πύλην</String>
+							</field>
+							<field name="regexp">
+								<Boolean>false</Boolean>
+							</field>
+						</findHistory>
+					</findHistory-array>
+				</field>
+				<field name="replaceHistory">
+					<String-array>
+						<String>d--------</String>
+						<String>r--------</String>
+						<String>c--------</String>
+						<String>relation="AuxX" head="0</String>
+						<String>form=")" lemma="punc1" postag="u--------" relation="AuxG" head="0"/></String>
+						<String>form="(" lemma="punc1" postag="u--------" relation="AuxG" head="0"/></String>
+						<String>document_id="Cassius Dio book 50"</String>
+						<String>document_id="urn:cts:greekLit:tlg0086.tlg035.perseus-grc1:2"</String>
+						<String>form="(" lemma="(" postag="u--------" relation="AuxG" head="0"/></String>
+						<String>form=")" lemma=")" postag="u--------" relation="AuxG" head="0"/></String>
+						<String>)</String>
+						<String>(</String>
+						<String>document_id="urn:cts:greekLit:tlg0086.tlg035.perseus-grc1:1"</String>
+						<String>form="μάλιστα" lemma="μάλιστα" postag="d--------" relation="AuxZ"</String>
+						<String>document_id="urn:cts:greekLit:tlg0385.tlg001.perseus-grc1"</String>
+					</String-array>
+				</field>
+				<field name="xpathHistory">
+					<String-array/>
+				</field>
+				<field name="caseSensitive">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="wholeWords">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="searchStringIsRegexp">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="dotMatchesAll">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="canonicalEquivalence">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="wrapAround">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="xmlFilter">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="xmlFindOptions">
+					<xmlFindOptions>
+						<field name="elementNames">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="elementContents">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="attributeNames">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="attributeValues">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="pis">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="comments">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="cdata">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="doctype">
+							<Boolean>false</Boolean>
+						</field>
+						<field name="entities">
+							<Boolean>false</Boolean>
+						</field>
+					</xmlFindOptions>
+				</field>
+			</findOptions>
+		</entry>
+		<entry>
+			<String>show.bidi.limit.warn.v12</String>
+			<Boolean>false</Boolean>
+		</entry>
+		<entry>
+			<String>shown.new.version.message.digest</String>
+			<String>1320979777</String>
+		</entry>
+		<entry>
+			<String>trusted.hosts</String>
+			<String-array>
+				<String>*oxygenxml.com</String>
+				<String>*w3c.org</String>
+				<String>*w3.org</String>
+				<String>*.sharepoint.com</String>
+				<String>*saxonica.com</String>
+				<String>130.64.156.10:80</String>
+			</String-array>
+		</entry>
+		<entry>
+			<String>user.preferred.schemas</String>
+			<userPreferredSchemas>
+				<field name="keys">
+					<list>
+						<String>file_new_wizard_save_as</String>
+					</list>
+				</field>
+				<field name="urlLists">
+					<list>
+						<list>
+							<String>9.1.206;162;207;204;157;101;190;162;94;140;172;202;155;162;91;102;105;146;158;173;165;204;210;150;150;203;171;205;155;209;88;107;151;157;161;152;219;172;136;153;147;170;216;205;148;93;108;149;156;152;162;153;172;106;132;169;174;204;216;155;204;200;103;213;154;148;</String>
+							<String>9.1.206;162;207;204;157;101;190;162;94;140;172;202;155;162;91;102;105;146;158;173;165;204;210;150;150;203;171;205;155;209;88;107;151;157;161;152;219;172;136;153;147;170;216;205;148;93;108;149;156;152;162;153;172;106;132;169;174;204;216;155;204;200;103;224;163;210;97;</String>
+							<String>9.1.206;162;207;204;157;101;190;162;94;140;172;202;155;162;91;102;105;146;158;173;165;204;210;150;150;198;154;203;161;139;101;105;220;170;90;105;152;173;213;204;200;169;149;220;151;173;157;148;170;151;171;151;94;109;95;108;95;149;148;156;200;205;167;151;139;212;167;162;219;166;154;155;150;177;208;211;145;</String>
+							<String>9.1.206;162;207;204;157;101;190;162;94;140;172;202;155;162;91;102;105;146;158;173;165;204;210;150;150;203;171;205;155;209;88;107;151;157;161;152;219;172;136;153;147;156;207;212;148;171;105;186;164;163;159;168;165;160;147;105;178;208;208;93;</String>
+							<String>9.1.206;162;207;204;157;101;190;162;94;140;172;202;155;162;91;102;105;146;158;173;165;204;210;150;150;198;154;203;161;139;101;105;220;170;90;105;152;173;213;204;200;169;149;172;148;165;169;216;170;151;155;162;158;174;94;171;173;200;217;147;214;137;107;152;154;203;160;168;218;174;157;156;214;158;214;150;184;164;218;209;163;164;159;201;100;167;163;160;103;</String>
+							<String>9.1.206;162;207;204;157;101;190;162;94;140;172;202;155;162;91;102;105;146;158;173;165;204;210;150;150;198;154;203;161;139;101;105;220;170;90;105;152;173;213;204;200;169;149;172;148;165;169;216;170;151;155;162;158;174;94;127;159;208;211;162;219;204;158;214;155;217;88;107;151;110;107;102;189;167;215;208;215;162;203;204;93;176;167;209;100;</String>
+							<String>9.1.206;162;207;204;157;101;190;162;94;140;172;202;155;162;91;102;105;146;158;173;165;204;210;150;150;198;154;203;161;139;101;105;220;170;90;105;152;173;213;204;200;169;149;172;148;165;169;216;170;151;155;162;158;174;94;144;168;215;205;163;211;201;157;150;174;211;159;103;</String>
+							<String>9.1.206;162;207;204;157;101;190;162;94;140;172;202;155;162;91;102;105;146;158;173;165;204;210;150;150;198;154;203;161;139;101;105;220;170;90;105;152;173;213;204;200;169;149;172;148;165;169;216;170;151;155;162;158;174;94;144;168;215;205;163;211;201;157;150;163;202;97;</String>
+							<String>9.1.206;162;207;204;157;101;190;162;94;140;172;202;155;162;91;102;105;146;158;173;165;204;210;150;150;198;154;203;161;139;101;105;220;170;90;105;152;173;213;204;200;169;149;172;148;165;169;216;170;151;155;162;158;174;94;127;159;208;211;162;219;204;158;214;155;217;88;107;151;111;110;92;154;105;177;204;196;159;216;201;94;141;168;217;159;163;162;153;157;105;156;159;104;</String>
+							<String>9.1.206;162;207;204;157;101;190;162;94;140;172;202;155;162;91;102;105;146;158;173;165;204;210;150;150;198;154;203;161;139;101;105;220;170;90;105;152;173;213;204;200;169;149;172;148;165;169;216;170;151;155;162;158;174;94;127;159;208;211;162;219;204;158;214;155;217;88;107;151;111;110;92;154;105;177;204;196;159;216;201;94;141;168;217;159;163;162;153;157;105;167;168;166;145;</String>
+						</list>
+					</list>
+				</field>
+			</userPreferredSchemas>
+		</entry>
+	</map>
+</serialized>
