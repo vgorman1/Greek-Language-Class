@@ -1,11 +1,18 @@
 ---
-layout: default 
---- 
-<html><head/><body>
+layout: default
+
+---
+<html>
+    
+    <head>
+        <title>Reading Ancient Greek in the Digital Age</title>
+    </head>
+    <body>
 <h1>2.1 Basic Verbs</h1>
 
 
 
 
 <h5><a href="https://vgorman1.github.io/Greek-Language-Class/">Back to Main Page</a></h5>
-</body></html>
+ </body>
+</html>
