@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+
+<!-- This demo shows how to enable aligned treebanks and translations -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <title>Alpheios Embedded Library Treebank Translation Demo</title>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alpheios-components@latest/dist/style/style-components.min.css"/>
+            <meta name="alpheios-v2-treebank-diagram-url"
+                data-alpheios_tb_src="https://github.com/rgorman/VG-treebank-display/embed/DOC/SENTENCE?w=WORD"
+    </head>
+    
+    <body>
+        <script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function(event) {
+	import ("https://cdn.jsdelivr.net/npm/alpheios-embedded@latest/dist/alpheios-embedded.min.js").then(embedLib => {
+window.AlpheiosEmbed.importDependencies({ mode: 'cdn' }).then(Embedded => {
+new Embedded({clientId: 'embed-lib-demo-perseids-treebanks', authEnv: null}).activate();
+}).catch(e => {
+console.error(`Import of an embedded library dependencies failed: ${e}`)
+})
+}).catch(e => {
+console.error(`Import of an embedded library failed: ${e}`)
+})
+})
+</script>
+        <div class="alpheios-enabled" lang="grc">
+            ἀγαθός<br> ἄγω<br> ἀγών<br> ἀδελφός<br> ἀδικέω<br> ἄδικος<br> ἀδύνατος<br> ἀεί<br> Ἀθῆναι<br> Ἀθηναῖος<br> αἱρέω<br> αἰσθάνομαι<br> αἰσχρός<br> αἰτία<br> αἴτιος<br> ἀκούω<br> Ἀλέξανδρος<br> ἀλήθεια<br> ἀληθής<br> ἀλλά<br> ἀλλήλων<br> ἄλλος<br> ἅμα<br> ἀμύνω<br> ἀμφί<br> ἀμφότερος<br> ἄν<br> ἀναγκάζω<br> ἀναγκαῖος<br> ἀνάγκη<br> ἀναιρέω<br> ἄνευ<br> ἀνήρ<br> ἄνθρωπος<br> ἀντί<br> ἄξιος<br> ἀξιόω<br> ἀπαλλάσσω<br> ἅπας<br> ἀπέχω<br> ἀπό<br> ἀποδείκνυμι<br> ἀποδίδωμι<br> ἀποθνῄσκω<br> ἀποκρίνω<br> ἀποκτείνω<br> ἀπόλλυμι<br> Ἀπόλλων<br> ἀποστέλλω<br> ἄρα<br> ἆρα<br> Ἀργεῖος<br> ἀρετή<br> ἀριθμός<br> ἄριστος<br> ἀρχή<br> ἄρχω<br> ἄρχων<br> ἀτάρ<br> αὖ<br> αὖθις<br> αὐτίκα<br> αὐτοκράτωρ<br> αὐτός<br> ἀφαιρέω<br> ἀφίημι<br> ἀφικνέομαι<br> ἀφίστημι<br> Ἀχαιός<br> βάλλω<br> βάρβαρος<br> βασιλεία<br> βασιλεύς<br> βασιλεύω<br> βελτίων<br> βίος<br> βοηθέω<br> βουλεύω<br> βουλή<br> βούλομαι<br> γάρ<br> γε<br> γένος<br> γῆ<br> γίγνομαι<br> γιγνώσκω<br> γνώμη<br> γοῦν<br> γράφω<br> γυνή<br> γωνία<br> δέ<br> δεῖ<br> δείδω<br> δείκνυμι<br> δεινός<br> δέκα<br> δεύτερος<br> δέχομαι<br> δέω2<br> δή<br> δῆλος<br> δηλόω<br> δῆμος<br> διά<br> διαιρέω<br> διαφέρω<br> διαφθείρω<br> διδάσκω<br> δίδωμι<br> δίκαιος<br> δικαστής<br> δίκη<br> διό<br> διώκω<br> δοκέω<br> δόμος<br> δόξα<br> δοῦλος<br> δράω<br> δύναμαι<br> δύναμις<br> δυνατός<br> δύο<br> ἐάν<br> ἑαυτοῦ<br> ἐάω<br> ἐγγύς<br> ἐγώ<br> ἐθέλω<br> ἔθνος<br> εἰ<br> εἶδος<br> εἰκός<br> εἴκοσι<br> εἰμί<br> εἶμι<br> εἴπερ<br> εἰρήνη<br> εἰς<br> εἷς<br> εἰσέρχομαι<br> εἶτα<br> εἴτε<br> ἐκ<br> ἕκαστος<br> ἑκάτερος<br> ἑκατόν<br> ἐκεῖ<br> ἐκεῖνος<br> ἐλάσσων<br> ἐλεύθερος<br> Ἑλλάς<br> Ἕλλην<br> ἐλπίς<br> ἐμαυτοῦ<br> ἐμός<br> ἐν<br> ἐναντίος<br> ἕνεκα<br> ἔνθα<br> ἐνταῦθα<br> ἔξεστι<br> ἔοικα<br> ἐπαινέω<br> ἐπεί<br> ἔπειτα<br> ἐπί<br> ἐπίσταμαι<br> ἐπιστήμη<br> ἐπιχειρέω<br> ἕπομαι<br> ἔπος<br> ἐργάζομαι<br> ἔργον<br> ἔρχομαι<br> ἐρωτάω<br> ἕτερος<br> ἔτι<br> ἔτος<br> εὖ<br> εὐθύς<br> εὑρίσκω<br> ἐχθρός<br> ἔχω<br> ἕως<br> Ζεύς<br> ζητέω<br> ζήω<br> ἤ<br> ἦ<br> ἡγεμών<br> ἡγέομαι<br> ἤδη<br> ἡδονή<br> ἡδύς<br> ἥκω<br> ἥλιος<br> ἡμέρα<br> ἡμέτερος<br> ἠμί<br> ἥσσων<br> θάλασσα<br> θάνατος<br> θαυμάζω<br> θεάομαι<br> θεῖος<br> θεός<br> Θηβαῖος<br> θυγάτηρ<br> θυμός<br> θύω<br> ἴδιος<br> ἱερόν<br> ἱερός<br> Ἰησοῦς<br> ἱκανός<br> ἵνα<br> Ἰουδαῖος<br> ἱππεύς<br> ἵππος<br> ἴσος<br> ἵστημι<br> καθά<br> καθίστημι<br> καί<br> καιρός<br> Καῖσαρ<br> καίτοι<br> κακός<br> καλέω<br> καλός<br> Καρχηδόνιος<br> κατά<br> καταλαμβάνω<br> καταλείπω<br> κατασκευάζω<br> κατέχω<br> κατηγορέω<br> κεῖμαι<br> κελεύω<br> κεφαλή<br> κίνδυνος<br> κινέω<br> κοινός<br> κομίζω<br> κρατέω<br> κρείσσων<br> κρίνω<br> κτάομαι<br> κτείνω<br> κύκλος<br> κύριος<br> Κῦρος<br> κωλύω<br> Λακεδαιμόνιος<br> λαμβάνω<br> λανθάνω<br> λέγω<br> λείπω<br> λίθος<br> λόγος<br> λοιπός<br> λύω<br> μακρός<br> μάλα<br> μάλιστα<br> μᾶλλον<br> μανθάνω<br> μάρτυς<br> μάχη<br> μάχομαι<br> μέγας<br> μέγεθος<br> μέλλω<br> μέν<br> μέντοι<br> μένω<br> μέρος<br> μέσος<br> μετά<br> μετέχω<br> μέχρι<br> μή<br> μηδέ<br> μηδείς<br> μήν<br> μήτε<br> μήτηρ<br> μικρός<br> μιμνήσκω<br> μιν<br> μόνος<br> ναί<br> ναός<br> ναῦς<br> νέος<br> νῆσος<br> νικάω<br> νίκη<br> νομίζω<br> νόμος<br> νόος<br> νῦν<br> νύξ<br> ξένος<br> ὁ<br> ὅδε<br> ὁδός<br> Ὀδυσσεύς<br> ὅθεν<br> οἶδα<br> οἰκεῖος<br> οἰκέω<br> οἰκία<br> οἶκος<br> οἴομαι<br> οἷος<br> ὀλίγος<br> ὅλος<br> ὅμοιος<br> ὁμολογέω<br> ὅμως<br> ὄνομα<br> ὀνομάζω<br> ὅπλον<br> ὅπου<br> ὅπως<br> ὁράω<br> ὀργή<br> ὀρθός<br> ὁρμάω<br> ὄρος<br> ὅς<br> ὅσος<br> ὅστις<br> ὅταν<br> ὅτε<br> ὅτι2<br> οὐ<br> οὗ<br> οὗ2<br> οὐδέ<br> οὐδείς<br> οὐκέτι<br> οὐκοῦν<br> οὖν<br> οὐσία<br> οὔτε<br> οὗτος<br> οὕτως<br> πάθος<br> παῖς<br> πάλιν<br> πάνυ<br> παρά<br> παραγίγνομαι<br> παραδίδωμι<br> παρακαλέω<br> παραλαμβάνω<br> παρασκευάζω<br> πάρειμι<br> παρέχω<br> πᾶς<br> πάσχω<br> πατήρ<br> πατρίς<br> παύω<br> πεδίον<br> πεζός<br> πείθω<br> πειράω<br> πέμπω<br> πέντε<br> περ<br> περί<br> Πέρσης<br> πίπτω<br> πιστεύω<br> πίστις<br> πλέω<br> πλῆθος<br> πλήν<br> ποιέω<br> ποῖος<br> πολεμέω<br> πολέμιος<br> πόλεμος<br> πόλις<br> πολιτεία<br> πολίτης<br> πολλάκις<br> πολύς<br> πονηρός<br> πορεύω<br> ποταμός<br> ποτε<br> πότερον<br> που<br> πούς<br> πρᾶγμα<br> πρᾶξις<br> πράσσω<br> πρέσβυς<br> πρίν<br> πρό<br> προαγορεύω<br> πρός<br> προσαγορεύω<br> προσήκω<br> προστάσσω<br> πρότερος<br> πρῶτος<br> πυνθάνομαι<br> πῦρ<br> πῶς<br> ῥᾴδιος<br> Ῥωμαῖος<br> σαφής<br> σημεῖον<br> σκοπέω<br> σός<br> σοφός<br> στάδιον<br> στράτευμα<br> στρατεύω<br> στρατηγός<br> στρατιά<br> στρατιώτης<br> στρατόπεδον<br> στρατός<br> σύ<br> συμβαίνω<br> σύμμαχος<br> συμφέρω<br> συμφορά<br> σύν<br> συνίστημι<br> σφεῖς<br> σχεδόν<br> σῴζω<br> Σωκράτης<br> σῶμα<br> σωτηρία<br> τάλαντον<br> τάξις<br> τάσσω<br> ταχύς<br> τε<br> τεῖχος<br> τέκνον<br> τελευτάω<br> τέλος<br> τέσσαρες<br> τετράγωνος<br> τέχνη<br> τίθημι<br> τιμάω<br> τιμή<br> τις<br> τίς<br> τοι<br> τοίνυν<br> τοιόσδε<br> τοιοῦτος<br> τολμάω<br> τόπος<br> τοσοῦτος<br> τότε<br> τρεῖς<br> τρέπω<br> τρέφω<br> τριάκοντα<br> τρίτος<br> τρόπος<br> τυγχάνω<br> τύραννος<br> τύχη<br> ὕδωρ<br> υἱός<br> ὑμέτερος<br> ὑπάρχω<br> ὑπέρ<br> ὑπό<br> ὑπολαμβάνω<br> ὕστερος<br> φαίνω<br> φανερός<br> φέρω<br> φεύγω<br> φημί<br> φιλέω<br> φιλία<br> Φίλιππος<br> φίλος<br> φοβέω<br> φόβος<br> φράζω<br> φρονέω<br> φυλάσσω<br> φύσις<br> φύω<br> χαίρω<br> χαλεπός<br> χάρις<br> χείρ<br> χράομαι<br> χρή<br> χρῆμα<br> χρόνος<br> χώρα<br> χωρίον<br> χωρίς<br> ψυχή<br> ὦ<br> ὧδε<br> ὡς<br> ὥσπερ<br> ὥστε<br>   
+            
+            
+        </div>
+    </body>
+</html>
+
