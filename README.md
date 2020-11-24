@@ -4,7 +4,7 @@ Instead, you will learn the metalanguage of language, so that you can talk about
 You will be given the most commonly occuring forms and vocabulary, so that your efforts are time- and labor-efficient.
 You will be taught to use the modern tools that are freely availably, especially Alpheios, a web browser extension that offers morphological analysis and definitions, and Arethusa on the Perseids website, where dependency syntax trees are constructed and available for autopsy.
 <br>
-This websire belongs to Prof. Vanessa Gorman, University of Nebraska-Lincoln.  vgorman1@unl.edu
+This website belongs to Prof. Vanessa Gorman, University of Nebraska-Lincoln.  vgorman1@unl.edu
 
 
-The treebanks are licensed under the CC0 1.0 license (see TREEBANK_LICENSE file).
+The treebanks and the class website are licensed under the CC0 1.0 license (see TREEBANK_LICENSE file).
