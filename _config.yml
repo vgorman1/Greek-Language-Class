@@ -1,4 +1,12 @@
 theme: jekyll-theme-cayman
-title: "Reading Ancient Greek in the Digital Age<br>
-<h1>Prof. Vanessa B. Gorman</h1>"
+title: |
+  Reading Ancient Greek in the Digital Age<br>
+  <h1>Prof. Vanessa B. Gorman</h1>
 
+# New section to apply layouts automatically
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
