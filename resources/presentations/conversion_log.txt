@@ -1,0 +1,40 @@
+2026-03-11 22:57:26 - --- STARTED BATCH CONVERSION ---
+2026-03-11 22:57:30 - Could not import comtypes.gen._91493440_5A91_11CF_8700_00AA0060263B_0_2_12: No module named 'comtypes.gen._91493440_5A91_11CF_8700_00AA0060263B_0_2_12'
+2026-03-11 22:57:30 - # Generating comtypes.gen._91493440_5A91_11CF_8700_00AA0060263B_0_2_12
+2026-03-11 22:57:35 - # Generating comtypes.gen.PowerPoint
+2026-03-11 22:57:35 - Could not import comtypes.gen._2DF8D04C_5BFA_101B_BDE5_00AA0044DE52_0_2_8: No module named 'comtypes.gen._2DF8D04C_5BFA_101B_BDE5_00AA0044DE52_0_2_8'
+2026-03-11 22:57:35 - # Generating comtypes.gen._2DF8D04C_5BFA_101B_BDE5_00AA0044DE52_0_2_8
+2026-03-11 22:57:40 - # Generating comtypes.gen.Office
+2026-03-11 22:57:40 - Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+2026-03-11 22:57:40 - # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+2026-03-11 22:57:40 - # Generating comtypes.gen.stdole
+2026-03-11 22:57:41 - Could not import comtypes.gen._0002E157_0000_0000_C000_000000000046_0_5_3: No module named 'comtypes.gen._0002E157_0000_0000_C000_000000000046_0_5_3'
+2026-03-11 22:57:41 - # Generating comtypes.gen._0002E157_0000_0000_C000_000000000046_0_5_3
+2026-03-11 22:57:41 - # Generating comtypes.gen.VBIDE
+2026-03-11 22:57:47 - SUCCESS: Converted 1.1-basic-greek-verb.pptx
+2026-03-11 22:57:51 - SUCCESS: Converted 1.1-understanding-greek-verb-morphology.pptx
+2026-03-11 22:57:54 - SUCCESS: Converted 1.1-verb-valency.pptx
+2026-03-11 22:57:57 - SUCCESS: Converted 1.1-words-phrases-and-clauses.pptx
+2026-03-11 22:58:01 - SUCCESS: Converted 1.2-first-second-declension-nouns.pptx
+2026-03-11 22:58:03 - SUCCESS: Converted 1.2-intro-nouns-and-articles.pptx
+2026-03-11 22:58:05 - SUCCESS: Converted 1.3-coord-conjunctions.pptx
+2026-03-11 22:58:08 - SUCCESS: Converted 1.4-prepositions.pptx
+2026-03-11 22:58:10 - SUCCESS: Converted 1.5-sentence-adverbs.pptx
+2026-03-11 22:58:13 - SUCCESS: Converted 1.6-adjectives-pronouns.pptx
+2026-03-11 22:58:14 - SUCCESS: Converted 1.6-intro-adj-pron.pptx
+2026-03-11 22:58:16 - SUCCESS: Converted 1.7-adverbs.pptx
+2026-03-11 22:58:19 - SUCCESS: Converted 1.8-third-declension-nouns.pptx
+2026-03-11 22:58:21 - SUCCESS: Converted 1.9-comparison-of-greek-adjectives.pptx
+2026-03-11 22:58:23 - SUCCESS: Converted 1.9-third-declension-adjectives.pptx
+2026-03-11 22:58:26 - SUCCESS: Converted 2.1.1-greek-verb-tenses.pptx
+2026-03-11 22:58:28 - SUCCESS: Converted 2.1.2-greek-verb-voices.pptx
+2026-03-11 22:58:30 - SUCCESS: Converted 2.2-indicative-subord-clauses.pptx
+2026-03-11 22:58:31 - SUCCESS: Converted 2.2-intro-subordinate-clauses.pptx
+2026-03-11 22:58:33 - SUCCESS: Converted 2.3-morphology-of-infinitives.pptx
+2026-03-11 22:58:35 - SUCCESS: Converted 2.3-uses-of-infinitives.pptx
+2026-03-11 22:58:37 - SUCCESS: Converted 2.4-relative-clauses.pptx
+2026-03-11 22:58:40 - SUCCESS: Converted 2.5-moods-in-subordinate-clauses.pptx
+2026-03-11 22:58:46 - SUCCESS: Converted 2.6-participles.pptx
+2026-03-11 22:58:49 - SUCCESS: Converted 2.7-direct-speech.pptx
+2026-03-11 22:58:51 - SUCCESS: Converted alphabet-and-pronunciation.pptx
+2026-03-11 22:58:51 - --- FINISHED: 26 converted, 0 skipped ---

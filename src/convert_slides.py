@@ -1,51 +1,74 @@
 import os
 import comtypes.client
+import logging
 from pathlib import Path
 
 def convert_pptx_to_pdf():
-    # 1. Define paths (relative to where the script is run)
-    base_dir = Path("resources/presentations").resolve()
+    # 1. Define paths
+    base_dir = (Path(__file__).parent.parent / "resources" / "presentations").resolve()
     pdf_dir = base_dir / "pdfs"
     
     # 2. Create the pdfs subfolder if it doesn't exist
     pdf_dir.mkdir(parents=True, exist_ok=True)
 
-    # 3. Initialize PowerPoint COM object
-    print("Opening Microsoft PowerPoint...")
-    powerpoint = comtypes.client.CreateObject("Powerpoint.Application")
-    # 32 is the format code for PDF export in PowerPoint
-    PDF_FORMAT = 32 
+    # 3. Set up the log file
+    log_file = base_dir / "conversion_log.txt"
+    logging.basicConfig(
+        filename=str(log_file),
+        level=logging.INFO,
+        format='%(asctime)s - %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
 
+    print(f"Starting conversion. A detailed log will be saved to: {log_file.name}")
+    logging.info("--- STARTED BATCH CONVERSION ---")
+
+    # 4. Initialize PowerPoint COM object
+    print("Opening Microsoft PowerPoint in the background...")
     try:
-        # 4. Find all .pptx files in the directory
-        for pptx_file in base_dir.glob("*.pptx"):
-            # Ignore temporary files that start with ~$
+        powerpoint = comtypes.client.CreateObject("Powerpoint.Application")
+        PDF_FORMAT = 32 
+        
+        pptx_files = list(base_dir.glob("*.pptx"))
+        converted_count = 0
+        skipped_count = 0
+
+        # 5. Process files
+        for pptx_file in pptx_files:
             if pptx_file.name.startswith("~$"):
                 continue
 
             pdf_file = pdf_dir / f"{pptx_file.stem}.pdf"
 
-            # 5. Skip conversion if the PDF already exists and is up to date
             if pdf_file.exists() and pdf_file.stat().st_mtime >= pptx_file.stat().st_mtime:
-                print(f"Skipping {pptx_file.name} (PDF is already up to date).")
+                print(f"Skipping {pptx_file.name} (Up to date)")
+                logging.info(f"SKIPPED: {pptx_file.name} (PDF already up to date)")
+                skipped_count += 1
                 continue
 
-            print(f"Converting {pptx_file.name} to PDF...")
+            print(f"Converting: {pptx_file.name}...")
             
             # Open presentation, save as PDF, and close
             presentation = powerpoint.Presentations.Open(str(pptx_file), WithWindow=False)
             presentation.SaveAs(str(pdf_file), PDF_FORMAT)
             presentation.Close()
             
-            print(f"Successfully created {pdf_file.name}")
+            logging.info(f"SUCCESS: Converted {pptx_file.name}")
+            converted_count += 1
+
+        logging.info(f"--- FINISHED: {converted_count} converted, {skipped_count} skipped ---")
+        print(f"\nDone! Converted {converted_count} files. Skipped {skipped_count} files.")
 
     except Exception as e:
-        print(f"An error occurred: {e}")
+        error_msg = f"An error occurred: {e}"
+        print(error_msg)
+        logging.error(error_msg)
     
     finally:
-        # 6. Ensure PowerPoint closes cleanly in the background
-        powerpoint.Quit()
-        print("Conversion complete.")
+        # 6. Ensure PowerPoint closes cleanly
+        if 'powerpoint' in locals():
+            powerpoint.Quit()
+            print("Closed PowerPoint.")
 
 if __name__ == "__main__":
     convert_pptx_to_pdf()
